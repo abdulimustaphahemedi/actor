@@ -1,5 +1,11 @@
 body{
     background-color: black;
+    background-image: url(/bakground.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-size: 24px;
 }
 *{
     color:white;
@@ -13,9 +19,7 @@ header, #about-alita , #characteristics, #mission{
     flex-direction: column;
     align-items: center;
 }
-main{
-    background-color: BLUE;
-}
+
 section #about-alita{
     color:black;
     background-color: white;
@@ -32,4 +36,13 @@ footer{
     padding:50px;
     height:30px;
     height: 20%;
+}
+#about-alita p{
+    padding: 5%;
+    text-align: justify;
+}
+main{
+}
+h2{
+    font-size: 50px;
 }
